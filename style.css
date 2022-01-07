@@ -247,9 +247,9 @@ body {
   flex-direction: column;
 }
 
-.headline-section > .resume {
+.headline-sec > .resume {
   width: 50%;
-  margin-bottom: 48px;
+  margin: 22px 0 48px;
 }
 
 .language-section > .language-section__title {
