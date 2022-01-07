@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* padding: 18px 24px; */
 }
 
 /* Header section */
@@ -82,11 +81,9 @@ body {
 
 .main > .headline-section__box,
 .work-section > .work-section__box,
-.about-section > .about-section__upper {
-	padding: 18px 24px;
-}
+.about-section > .about-section__upper { padding: 18px 24px; }
 
-.headline-section__box {
+.main > .headline-section__box {
   display: flex;
   flex-direction: column;
 }
@@ -96,7 +93,7 @@ body {
 }
 
 .headline-section__box > .headline-section__title,
-.headline-section__title {
+.headline-sec > .headline-section__title {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -106,7 +103,7 @@ body {
 }
 
 .headline-section__box > .headline-section__desc,
- .headline-section__desc {
+.headline-sec > .headline-section__desc {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -155,7 +152,7 @@ body {
 }
 
 .work-section__card--info > * + * {
-	margin-top: 12px;
+  margin-top: 12px;
 }
 
 .work-section__card--info > .project-name {
@@ -201,7 +198,7 @@ body {
 }
 
 .work-section__card--info > .general__desc {
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   font-size: 15px;
   line-height: 24px;
@@ -209,7 +206,7 @@ body {
 }
 
 .work-section__card--info > .tech {
-	display: flex;
+  display: flex;
 }
 
 .tech > * + * {
@@ -229,7 +226,7 @@ body {
 }
 
 .btn {
-  border: 1px solid #6070ff!important;
+  border: 1px solid #6070ff !important;
   border-radius: 16px;
   padding: 12px;
   font-weight: 500;
@@ -240,7 +237,6 @@ body {
   background: none;
   color: #6070ff;
 }
-
 
 .work-section__card--info > .btn {
   margin-top: 20px;
@@ -271,7 +267,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   font-size: 20px;
-  color: #000000;
+  color: #000;
 }
 
 .language-section__title > button {
