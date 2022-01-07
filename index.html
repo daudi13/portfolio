@@ -9,17 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<!-- STYLESHEET -->
+<link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- HEADER SECTION -->
-    <div class="header">
-        <div class="header__logo">David</div>
-        <div class="header__menu-btn">
+    <header class="header">
+        <a href="#" class="header__logo">David</a>
+        <nav class="header__menu-btn">
             <div class="menu-btn__ham"></div>
-        </div>
-    </div>
+        </nav>
+    </header>
     <!-- HEADLINE SECTION -->
     <main>
         <section class="headline-section">
@@ -28,13 +29,13 @@
             <h2 class="headline-section__sub-title">
                 LET’S CONNECT
             </h2>
-            <div class="headline-section__social">
-                <a href="#" class="social-icon twitter"><img src="images/twitter.svg" alt="twitter icon"></a>
-                <a href="#" class="social-icon linkedin"><img src="images/Linkedin.svg" alt="Linkedin icon"></a>
-                <a href="#" class="social-icon linkedin"><img src="images/medium.svg" alt="medium icon"></a>
-                <a href="#" class="social-icon github"><img src="images/github.svg" alt="github icon"></a>
-                <a href="#" class="social-icon chill"><img src="images/chill.svg" alt="chill icon"></a>
-            </div>
+            <ul class="headline-section__social">
+                <li class="headline-section__social--item"><a href="#" class="social-icon twitter"><img src="images/twitter.svg" alt="twitter icon"></a></li>
+                <li class="headline-section__social--item"><a href="#" class="social-icon linkedin"><img src="images/Linkedin.svg" alt="Linkedin icon"></a></li>
+                <li class="headline-section__social--item"><a href="#" class="social-icon linkedin"><img src="images/medium.svg" alt="medium icon"></a></li>
+                <li class="headline-section__social--item"><a href="#" class="social-icon github"><img src="images/github.svg" alt="github icon"></a></li>
+                <li class="headline-section__social--item"><a href="#" class="social-icon chill"><img src="images/chill.svg" alt="chill icon"></a></li>
+            </ul>
         </section>
     </main>
 </body>

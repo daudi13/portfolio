@@ -6,7 +6,7 @@
 
 ![screenshot](./headline-mobile.png)
 
-This is a project my responsive portfolio website that will hold my proffesional information and various projects that I have worked on previously as a front-end developer
+This is a project of my responsive portfolio website that will hold my proffesional information and various projects that I have worked on previously as a front-end developer
 
 ## Built With
 
