@@ -8,6 +8,8 @@
 
 img { max-width: 100%; }
 
+ul li { list-style-type: none; }
+
 /* button { border: none; } */
 
 body {
@@ -138,6 +140,13 @@ body {
   background-color: #e5e5e5;
 }
 
+.work-section > .work-section__box {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 88px;
+}
+
 .work-section > * + * {
   margin-top: 88px;
 }
@@ -150,6 +159,10 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
+/* .work-section__card--img {
+	text-align: center;
+} */
 
 .work-section__card--info > * + * {
   margin-top: 12px;
@@ -241,6 +254,8 @@ body {
 .work-section__card--info > .btn {
   margin-top: 20px;
 }
+
+/* ---about section---- */
 
 .about-section > .about-section__upper {
   display: flex;
