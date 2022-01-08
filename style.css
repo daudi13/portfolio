@@ -145,6 +145,7 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap: 88px;
+  margin: 88px 0;
 }
 
 .work-section > * + * {
@@ -285,14 +286,35 @@ body {
   color: #000;
 }
 
-.language-section__title > button {
+.language-section__title.open {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.drop-down {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   border: none;
-  color: #acb7c3;
-  font-weight: 400;
+  padding: 8px 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.drop-down > .glyphicon {
+  font-size: 16px;
 }
 
 .language-section__box-sec {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  margin: 36px 0;
+  align-items: stretch;
+}
+
+.language-section__box > * {
+  width: 100%!important;
 }
 
 .language-section__box-sec > * + * {
