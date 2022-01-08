@@ -313,10 +313,6 @@ body {
   align-items: stretch;
 }
 
-.language-section__box > * {
-  width: 100%!important;
-}
-
 .language-section__box-sec > * + * {
   margin-top: 12px;
 }
