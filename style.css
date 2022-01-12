@@ -303,7 +303,6 @@ body {
   padding: 8px 0;
   font-size: 20px;
   line-height: 24px;
-  background-color: none;
 }
 
 .drop-down > .glyphicon {
@@ -338,19 +337,15 @@ body {
 /* contact-form */
 
 .contact-form-section {
-	background-color: #6070ff;
-	background-image: url('./images/contact\ form\ shapes-mobile.svg');
-	background-repeat: no-repeat;
-	border-radius: 80px 0 0 0;
-	margin-top: 113px;
-	background-position-x: 100%;
-	background-position-y: 30px
+  background-color: #6070ff;
+  background-image: url('./images/contact\ form\ shapes-mobile.svg');
+  background-repeat: no-repeat;
+  border-radius: 80px 0 0 0;
+  margin-top: 113px;
+  background-position-x: 100%;
+  background-position-y: 30px;
 }
-
-
 
 .white {
-	color: #fff!important;
+  color: #fff !important;
 }
-
-
