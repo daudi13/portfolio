@@ -400,3 +400,57 @@ textarea { margin-top: 20px !important; }
   color: #fff;
   border: 1px solid #fff;
 }
+
+
+@media screen and (min-width: 1024px) {
+
+.header {
+  padding: 10px 12px;
+  margin: 15px 154px;
+  display: flex;
+  align-items: center;
+}
+
+.header > .mobile--nav {
+  display: none;
+}
+
+.desktop--nav {
+ transform: translateY(50%);
+}
+
+.desktop--nav > ul  {
+  display: flex;
+  transform: translateY(-50%);
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+.desktop--nav > ul > li + li {
+  margin-left: 32px;
+}
+
+.main {
+	background-image: url('./images/Header-bg-desktop.png');
+}
+
+.main > .headline-section__box {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main > .headline-section__box > .headline-section__title {
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+}
+
+.main > .headline-section__box > .headline-section__desc {
+  font-size: 20px;
+  line-height: 28px;
+}
+}
