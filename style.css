@@ -248,6 +248,15 @@ form > * + * { margin-top: 20px; }
   line-height: 16px;
 }
 
+button {
+	transition: all 0.5s ease;
+}
+
+button:hover {
+  background: #6070ff;
+  color: #fff !important;
+}
+
 .btn {
   border: 1px solid #6070ff !important;
   border-radius: 16px;
