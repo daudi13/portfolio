@@ -8,6 +8,10 @@
 
 This is a project of my responsive portfolio website that will hold my proffesional information and various projects that I have worked on previously as a front-end developer
 
+## Live site
+
+[click here](https://portfolio-six-blond.vercel.app/) to view the demo site.
+
 ## Built With
 
 - HTML
@@ -17,7 +21,7 @@ This is a project of my responsive portfolio website that will hold my proffesio
 
 ## Authors
 
-👤 **Author1**
+👤 **David Ouma**
 
 - GitHub: [@daudi13](https://github.com/daudi13)
 - Twitter: [@davouma](https://twitter.com/davouma)
@@ -26,7 +30,7 @@ This is a project of my responsive portfolio website that will hold my proffesio
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+This project was put together with the help of [@Yoz21](https://github.com/Yoz21)
 
 Feel free to check the [issues page](../../issues/).
 
