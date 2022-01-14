@@ -441,7 +441,7 @@ textarea { margin-top: 20px !important; }
     padding: 24px;
     max-width: 1156px;
     margin: 0 auto;
-	align-items: stretch;
+    align-items: stretch;
   }
 
   .work-section__card > .mobile { display: none; }
