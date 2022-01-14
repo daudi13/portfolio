@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: black;
 }
 
 /* Header section */
@@ -80,11 +81,21 @@ body {
 
 /* headline section */
 
+main {
+  background-color: #e5e5e5;
+}
+
 .main {
   background-image: url("/images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 114px 0;
+  background-color: #fff;
+}
+
+main > .main {
+  border-radius: 0 0 0 100px;
+  width: 100%;
 }
 
 .main > .headline-section__box,
@@ -143,8 +154,6 @@ form > * + * { margin-top: 20px; }
 
 /* work-section */
 
-.work-section { background-color: #e5e5e5; }
-
 .work-section > .work-section__box {
   display: grid;
   grid-template-columns: auto;
@@ -198,6 +207,7 @@ form > * + * { margin-top: 20px; }
 }
 
 .range > .range__canopy {
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 13px;
@@ -209,6 +219,7 @@ form > * + * { margin-top: 20px; }
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  color: #7a869a;
 }
 
 .work-section__card--info > .desktop { display: none; }
@@ -254,9 +265,16 @@ form > * + * { margin-top: 20px; }
 
 /* ---about section---- */
 
+.about-section {
+  border-radius: 0 100px 0 0;
+  background-color: #fff;
+}
+
 .about-section > .about-section__upper {
   display: flex;
   flex-direction: column;
+  padding-top: 142px;
+  padding-bottom: 142px;
 }
 
 .headline-sec > .resume {
@@ -293,13 +311,16 @@ form > * + * { margin-top: 20px; }
   display: flex;
   justify-content: space-between;
   border: none;
-  padding: 8px 0;
+  padding: 23px 8px;
   font-size: 20px;
   line-height: 24px;
   background-color: #fff;
 }
 
-.drop-down > .glyphicon { font-size: 16px; }
+.drop-down > .glyphicon {
+  font-size: 16px;
+  color: #acb7c3;
+}
 
 .language-section__box-sec {
   display: flex;
@@ -327,7 +348,6 @@ form > * + * { margin-top: 20px; }
   background-image: url("./images/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   border-radius: 80px 0 0 0;
-  margin-top: 113px;
   background-position-x: 100%;
   background-position-y: 30px;
 }
@@ -413,16 +433,26 @@ textarea { margin-top: 20px !important; }
     padding: 0;
   }
 
+  .outro__box > .headline-section__title {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+  }
+
   .headline-sec > .headline-section__title,
-  .outro__box > .headline-section__title,
   .main > .headline-section__box > .headline-section__title {
     font-size: 42px;
     line-height: 60px;
     letter-spacing: 0.37px;
   }
 
+  .outro__box > .headline-section__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   .headline-sec > .headline-section__desc,
-  .outro__box > .headline-section__desc,
   .main > .headline-section__box > .headline-section__desc {
     font-size: 20px;
     line-height: 28px;
@@ -464,14 +494,15 @@ textarea { margin-top: 20px !important; }
 
   .work-section__card--info > .mobile { display: none; }
 
+  .work-section__card--info > .desktop { display: block; }
+
   .range > .range__canopy {
     font-size: 18px;
     line-height: 24px;
+    margin-left: 0;
   }
 
   .range > .mobile { display: none; }
-
-  .range > .mobile.range__canopy { display: none; }
 
   .range > .range__txt {
     font-size: 18px;
@@ -488,13 +519,19 @@ textarea { margin-top: 20px !important; }
   .about-section > .about-section__upper {
     flex-direction: row;
     max-width: 1156px;
-    margin: 142px auto;
+    margin: 0 auto;
     justify-content: space-between;
   }
 
   .about-section__upper > .headline-sec {
     width: 45%;
     padding-right: 22px;
+  }
+
+  .headline-sec > .headline-section__sub-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
   }
 
   .about-section__upper > .language-section { width: 55%; }
@@ -525,13 +562,15 @@ textarea { margin-top: 20px !important; }
   }
 
   .contact-form-section {
-    background-image: url('./images/Card-images/contactformbackgroundDesktop@2x.png');
+    background-image: url('./images/Card-images/contactformbackgroundshapes@2x.png');
     padding-top: 10px;
+    background-position: center;
   }
 
   .contact-form-section > .contact-form__container {
     max-width: 569px;
     margin: 113px auto;
+    padding-bottom: 70px;
   }
 
   .contact-form__container > form {
