@@ -249,7 +249,7 @@ form > * + * { margin-top: 20px; }
 }
 
 button {
-	transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 button:hover {
