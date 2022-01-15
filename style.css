@@ -406,6 +406,15 @@ textarea { margin-top: 20px !important; }
   border: 1px solid #fff;
 }
 
+/* tablet version */
+
+@media screen and (min-width: 768px) {
+	.headline-section > .headline-section__box {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}
+
 /* desktop media query */
 
 @media screen and (min-width: 1024px) {
