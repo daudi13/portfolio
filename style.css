@@ -445,6 +445,11 @@ textarea { margin-top: 20px !important; }
     align-items: flex-start;
     padding: 12px;
   }
+
+	.contact-form-section > .contact-form__container {
+		max-width: 600px;
+		margin: 0 auto;
+	}
 }
 
 /* desktop media query */
@@ -585,22 +590,6 @@ textarea { margin-top: 20px !important; }
   }
 
   .about-section__upper > .language-section { width: 55%; }
-
-  /* .language-section__box-sec { flex-direction: row; }
-
-  .language-section__box-sec > * + * {
-    margin-left: 12px;
-    margin-top: 0;
-  }
-
-  .language-section__box-sec > .language-section__box {
-    height: 120px;
-    width: 120px;
-    flex-direction: column;
-    background-color: #f7f7f9;
-    align-items: flex-start;
-    padding: 12px;
-  } */
 
   .language-section__box > * + * { margin-top: 16px; }
 
