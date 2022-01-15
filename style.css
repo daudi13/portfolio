@@ -409,28 +409,28 @@ textarea { margin-top: 20px !important; }
 /* tablet version */
 
 @media screen and (min-width: 768px) {
-	.headline-section > .headline-section__box {
-		max-width: 600px;
-		margin: 0 auto;
-	}
+  .headline-section > .headline-section__box {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
-	.work-section__box > .work-section__card {
-		flex-direction: row;
-	}
+  .work-section__box > .work-section__card {
+    flex-direction: row;
+  }
 
-	.work-section__card > .work-section__card--img {
-		flex: 1;
-		text-align: center;
-	}
+  .work-section__card > .work-section__card--img {
+    flex: 1;
+    text-align: center;
+  }
 
-	.work-section__card > .work-section__card--info { flex: 1; }
+  .work-section__card > .work-section__card--info { flex: 1; }
 
-	.about-section > .about-section__upper {
-		max-width: 600px;
-		margin: 0 auto;
-	}
+  .about-section > .about-section__upper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
-	.language-section__box-sec { flex-direction: row; }
+  .language-section__box-sec { flex-direction: row; }
 
   .language-section__box-sec > * + * {
     margin-left: 12px;
@@ -446,10 +446,10 @@ textarea { margin-top: 20px !important; }
     padding: 12px;
   }
 
-	.contact-form-section > .contact-form__container {
-		max-width: 600px;
-		margin: 0 auto;
-	}
+  .contact-form-section > .contact-form__container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
 
 /* desktop media query */
