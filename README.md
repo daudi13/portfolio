@@ -10,7 +10,7 @@ This is a project of my responsive portfolio website that will hold my proffesio
 
 ## Live site
 
-[click here](https://portfolio-six-blond.vercel.app/) to view the demo site.
+[click here](https://daudi13.github.io/portfolio/) to view the demo site.
 
 ## Built With
 
