@@ -8,9 +8,9 @@
 
 This is a project of my responsive portfolio website that will hold my proffesional information and various projects that I have worked on previously as a front-end developer
 
-## Live site
+## Live Demo
 
-[click here](https://portfolio-six-blond.vercel.app/) to view the demo site.
+[Live Demo Link](https://daudi13.github.io/portfolio/)
 
 ## Built With
 
