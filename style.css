@@ -674,7 +674,6 @@ textarea {
     width: 55%;
   }
 
-
   .language-section__box-sec {
     flex-direction: row;
   }
@@ -693,9 +692,6 @@ textarea {
     padding: 12px;
   }
 
-  .language-section__box > * + * {
-    margin-top: 16px;
-  }
   .language-section__box > * + * { margin-top: 16px; }
 
   .language-section__box > p {
