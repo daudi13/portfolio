@@ -448,6 +448,52 @@ textarea {
   border: 1px solid #fff;
 }
 
+/* tablet version */
+
+@media screen and (min-width: 768px) {
+  .headline-section > .headline-section__box {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .work-section__box > .work-section__card {
+    flex-direction: row;
+  }
+
+  .work-section__card > .work-section__card--img {
+    flex: 1;
+    text-align: center;
+  }
+
+  .work-section__card > .work-section__card--info { flex: 1; }
+
+  .about-section > .about-section__upper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .language-section__box-sec { flex-direction: row; }
+
+  .language-section__box-sec > * + * {
+    margin-left: 12px;
+    margin-top: 0;
+  }
+
+  .language-section__box-sec > .language-section__box {
+    height: 120px;
+    width: 120px;
+    flex-direction: column;
+    background-color: #f7f7f9;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .contact-form-section > .contact-form__container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
 /* desktop media query */
 
 @media screen and (min-width: 1024px) {
@@ -628,6 +674,7 @@ textarea {
     width: 55%;
   }
 
+
   .language-section__box-sec {
     flex-direction: row;
   }
@@ -649,6 +696,7 @@ textarea {
   .language-section__box > * + * {
     margin-top: 16px;
   }
+  .language-section__box > * + * { margin-top: 16px; }
 
   .language-section__box > p {
     margin-left: 0;
