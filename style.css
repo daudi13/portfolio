@@ -60,7 +60,7 @@ body {
 	backdrop-filter: blur(6px);
 	color: #fff;
 	z-index: 100;
-	transform: translateX(0);
+	transition: left 0.5s ease;
 }
 
 
