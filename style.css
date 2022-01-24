@@ -45,12 +45,12 @@ body {
   padding: 14px 0;
 }
 
-.header > .desktop {
+.header > .desktop--nav {
   display: none;
 }
 
 .header > .mobile-menu {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 100%;
@@ -114,6 +114,8 @@ body {
 
 .header > .header__menu-btn.active {
 	z-index: 1000;
+  position: fixed;
+  right: 25px;
 }
 
 .active > .one {
@@ -562,7 +564,7 @@ textarea {
     display: none;
   }
 
-  .header > .desktop {
+  .header > .desktop--nav {
     display: block;
   }
 
