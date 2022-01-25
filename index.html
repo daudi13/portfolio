@@ -20,16 +20,27 @@
     <!-- HEADER SECTION -->
     <header class="header">
         <a href="#" class="header__logo">David</a>
-        <nav class="header__menu-btn mobile">
-            <div class="menu-btn__ham"></div>
-        </nav>
-		<nav class="desktop--nav desktop">
+        
+		<nav class="mobile-menu">
 			<ul>
-				<li class="nav__items"><a href="#">Portfolio</a></li>
-				<li class="nav__items"><a href="#">About</a></li>
-				<li class="nav__items"><a href="#">Contact</a></li>
+				<li class="nav__items nav-mobile"><a href="#portfolio">Portfolio</a></li>
+				<li class="nav__items nav-mobile"><a href="#about">About</a></li>
+				<li class="nav__items nav-mobile"><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
+		<nav class="desktop--nav">
+			<ul>
+				<li class="nav__items nav-mobile"><a href="#portfolio">Portfolio</a></li>
+				<li class="nav__items nav-mobile"><a href="#about">About</a></li>
+				<li class="nav__items nav-mobile"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<nav class="header__menu-btn mobile">
+            <div class="menu-btn__ham one"></div>
+            <div class="menu-btn__ham two"></div>
+            <div class="menu-btn__ham three"></div>
+        </nav>
 		
     </header>
     <!-- HEADLINE SECTION -->
@@ -51,7 +62,7 @@
 			</div>
         </section>
 		<!-- WORK -->
-		<section class="work-section">
+		<section class="work-section" id="portfolio">
 			<div class="work-section__box">
 			<div class="work-section__card">
 				<div class="work-section__card--img mobile"><img src="./images/SnapshootPortfolio.png" alt="card snap"></div>
@@ -103,7 +114,7 @@
 			</div>
 			<div class="work-section__card">
 				<div class="work-section__card--img mobile"><img src="./images/SnapshootPortfolio(2).png" alt="card snap"></div>
-				<div class="work-section__card--img desktop"><img src="./images/Card-images/SnapshootPortfolioDesktop3.png" alt="card snap"></div>
+ 				<div class="work-section__card--img desktop"><img src="./images/Card-images/SnapshootPortfolioDesktop3.png" alt="card snap"></div>
 				<div class="work-section__card--info">
 					<h3 class="project-name mobile">Tonic</h3>
 					<h3 class="project-name desktop">Facebook 360</h3>
@@ -157,7 +168,7 @@
 			</div>
 		</section>
 		<!-- ABOUT SECTION -->
-		<section class="about-section">
+		<section class="about-section" id="about">
 			<div class="about-section__upper">
 				<div class="headline-sec">
             <h2 class="headline-section__title">About<br/>Myself</h2>
@@ -197,7 +208,7 @@
 		</ul>
 			</div>
 		</section>
-		<section class="contact-form-section">
+		<section class="contact-form-section" id="contact">
 			<div class="contact-form__container">
 				<div class="outro__box">
 					<h2 class="healine-section__title white">Contact me</h2>
@@ -214,5 +225,6 @@
 			</div>
 		</section>
     </main>
+	<script src="main.js"></script>
 </body>
 </html>

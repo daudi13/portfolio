@@ -24,6 +24,10 @@ body {
   background-color: black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header section */
 
 .header {
@@ -31,6 +35,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 18px 24px;
+  position: relative;
 }
 
 .header > .header__logo {
@@ -44,16 +49,64 @@ body {
   padding: 14px 0;
 }
 
-.header > .desktop {
+.header > .desktop--nav {
   display: none;
+}
+
+.header > .mobile-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.75);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  z-index: 100;
+  transition: left 0.5s ease;
+}
+
+.header > .mobile-menu.active {
+  left: 0;
+}
+
+.mobile-menu > ul {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 106px;
+  margin-left: 28px;
+}
+
+.mobile-menu > ul > li + li {
+  margin-top: 40px;
+}
+
+.mobile-menu > ul > li > a {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff;
 }
 
 .header > .header__menu-btn {
   position: relative;
   cursor: pointer;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+form > * + * {
+  margin-top: 20px;
+}
+
+.header__menu-btn > * + * {
+  margin-top: 3px;
 }
 
 .header__menu-btn > .menu-btn__ham {
@@ -63,22 +116,29 @@ body {
   background: #6070ff;
 }
 
-.menu-btn__ham::before,
-.menu-btn__ham::after {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 2px;
-  background: #6070ff;
-  border-radius: 2px;
+.header > .header__menu-btn.active {
+  z-index: 1000;
+  position: fixed;
+  right: 25px;
 }
 
-.menu-btn__ham::before {
-  transform: translateY(-5px);
+.active > .one {
+  background-color: #fff;
+  transform: rotateZ(-45deg) translate(-6px, 4px);
 }
 
-.menu-btn__ham::after {
-  transform: translateY(5px);
+.active > .two {
+  background-color: #fff;
+  display: none;
+}
+
+.active > .three {
+  background-color: #fff;
+  transform: rotateZ(45deg) translate(0, 2px);
+}
+
+.menu-btn__ham__ham.active {
+  background-color: #fff;
 }
 
 /* headline section */
@@ -110,10 +170,6 @@ main > .main {
 .main > .headline-section__box {
   display: flex;
   flex-direction: column;
-}
-
-form > * + * {
-  margin-top: 20px;
 }
 
 .headline-section__box > * + * {
@@ -508,12 +564,12 @@ textarea {
     display: none;
   }
 
-  .header > .desktop {
-    display: block;
-  }
-
   .desktop--nav {
     transform: translateY(50%);
+  }
+
+  .header > .desktop--nav {
+    display: block;
   }
 
   .desktop--nav > ul {
