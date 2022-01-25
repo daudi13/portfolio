@@ -220,6 +220,8 @@ main > .main {
 
 /* work-section */
 
+
+
 .work-section > .work-section__box {
   display: grid;
   grid-template-columns: auto;
