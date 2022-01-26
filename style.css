@@ -380,6 +380,7 @@ button:hover {
 	margin-top: 0;
 	margin-bottom: 0;
 	z-index: 1000;
+  overflow: auto;
 }
 
 .work-section__box.active > .work-section__card {
@@ -907,4 +908,27 @@ textarea {
   .btn__submit {
     text-align: center;
   }
+
+  .pop-up--container{
+    max-width: 1000px;
+  }
+
+  .pop-up--container > .desktop > img {
+    width: 1000px;
+  }
+
+  .pop-up__footer {
+    display: flex;
+      }
+
+  .pop-up__footer > .desc {
+    width: 60%;
+    
+  }
+
+  .pop-up__footer > .options {
+    width: 40%;
+  }
+
+
 }
