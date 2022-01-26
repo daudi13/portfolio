@@ -11,7 +11,7 @@ img {
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 ul li {
@@ -26,10 +26,6 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: black;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 /* Header section */
@@ -224,15 +220,13 @@ main > .main {
 
 /* work-section */
 
-
-
 .work-section > .work-section__box {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap: 88px;
   margin: 88px 0;
-	transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .work-section > * + * {
@@ -250,7 +244,7 @@ main > .main {
 }
 
 .work-section__card.active {
-	display: none;
+  display: none;
 }
 
 .work-section__card > .desktop {
@@ -370,97 +364,108 @@ button:hover {
 /* ----pop-up---- */
 
 .work-section__box.active {
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100vw;
-	height: 100vh !important;
-	background-color: rgba(193, 199, 208, 0.6);
-	backdrop-filter: blur(5px);
-	margin-top: 0;
-	margin-bottom: 0;
-	z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh !important;
+  background-color: rgba(193, 199, 208, 0.6);
+  backdrop-filter: blur(5px);
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 1000;
   overflow: auto;
 }
 
 .work-section__box.active > .work-section__card {
-	display: none;
+  display: none;
 }
 
 .pop-up--container {
-	display: none;
-	padding: 16px 16px 28px 16px;
-	background-color: #fff;
-	border-radius: 16px;
-	margin: 20px auto;
-	
+  display: none;
+  padding: 16px 16px 28px 16px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 20px auto;
 }
 
-.pop-up--container.active{
-	display: block;
+.pop-up--container.active {
+  display: block;
 }
 
 .pop-up__header {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.pop-up__header > .project-name{
-	margin: 0;
-	font-family: "Poppins", sans-serif;
-	font-weight: 700;
-	font-size: 32px;
-	line-height: 44px;
-	color: #172b4d;
+.pop-up__header > .project-name {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
 }
 
-	.pop-up--container > .range > .desktop {
-		display: none;
-	}
-
-.range {
-	display: flex;
-	align-items: center;
+.pop-up--container > .desktop {
+  display: none;
 }
 
-.desktop {
-	display: none;
+.pop-up--container > .range > .desktop {
+  display: none;
+}
+
+.pop-up--container > .range {
+  display: flex;
+  align-items: center;
 }
 
 .pop-up__footer {
-	margin-top: 12px;
+  margin-top: 12px;
 }
 
 .pop-up__footer > .desc {
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 24px;
-	font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .options > .tech {
-	display: flex;
-	margin-bottom: 25px;
+  display: flex;
+  margin-bottom: 25px;
 }
 
 .options > .buttons-action {
-	text-align: center;
+  text-align: center;
 }
 
 .buttons-action > * + * {
-	margin-left: 10px;
+  margin-left: 10px;
+}
+
+.btn__submit > button {
+  padding: 12px 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #6070ff;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
 }
 
 .options > .buttons-action > button {
-	padding: 8px 14px;
-	width: 45%;
-	border: none;
+  padding: 8px 14px;
+  width: 45%;
+  border: none;
 }
 
 .buttons-action > button > img {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* ---about section---- */
@@ -593,18 +598,6 @@ textarea {
   margin-top: 20px !important;
 }
 
-.btn__submit > button {
-  padding: 12px 16px;
-  font-family: "Poppins", sans-serif;
-  line-height: 24px;
-  font-weight: 500;
-  text-align: center;
-  color: #6070ff;
-  background-color: #fff;
-  border-radius: 8px;
-  border: none;
-}
-
 .btn__submit > button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -619,46 +612,46 @@ textarea {
     margin: 0 auto;
   }
 
-	.pop-up--container {
-		max-width: 580px;
-	}
+  .pop-up--container {
+    max-width: 580px;
+  }
 
-	.pop-up--container > .mobile {
-		display: none;
-	}
+  .pop-up--container > .mobile {
+    display: none;
+  }
 
-	.pop-up--container > .desktop {
-		display: block;
-	}
+  .pop-up--container > .desktop {
+    display: block;
+  }
 
-	.pop-up--container > .range > .mobile {
-		display: none;
-	}
+  .pop-up--container > .range > .mobile {
+    display: none;
+  }
 
-	.pop-up--container > .range > .desktop {
-		display: block;
-	}
+  .pop-up--container > .range > .desktop {
+    display: block;
+  }
 
-	.pop-up--container > .desktop > img {
-		width: 600px;
-	}
+  .pop-up--container > .desktop > img {
+    width: 600px;
+  }
 
-	.pop-up__header > .project-name {
-		font-size: 40px;
-		line-height: 52px;
-	}
+  .pop-up__header > .project-name {
+    font-size: 40px;
+    line-height: 52px;
+  }
 
-	.pop-up__footer  > .options{
-		width: 50%;
-	}
+  .pop-up__footer > .options {
+    width: 50%;
+  }
 
   .work-section__box > .work-section__card {
     flex-direction: row;
   }
 
-	.pop-up--container.active {
-		margin-bottom: 30px;
-	}
+  .pop-up--container.active {
+    margin-bottom: 30px;
+  }
 
   .work-section__card > .work-section__card--img {
     flex: 1;
@@ -796,9 +789,9 @@ textarea {
     align-items: stretch;
   }
 
-	.work-section__card.active {
-	display: none !important;
-}
+  .work-section__card.active {
+    display: none !important;
+  }
 
   .work-section__card > .mobile {
     display: none;
@@ -928,32 +921,29 @@ textarea {
     text-align: center;
   }
 
-  .pop-up--container{
+  .pop-up--container {
     max-width: 1000px;
   }
 
-	.pop-up--container > .range > p {
-		font-size: 15px;
-	}
+  .pop-up--container > .range > p {
+    font-size: 15px;
+  }
 
   .pop-up--container > .desktop > img {
     width: 1108px;
-		height: 580px;
+    height: 580px;
   }
 
   .pop-up__footer {
     display: flex;
-		margin-top: 59px;
+    margin-top: 59px;
   }
 
   .pop-up__footer > .desc {
     width: 60%;
-    
   }
 
   .pop-up__footer > .options {
     width: 40%;
   }
-
-
 }
