@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 ul li {
   list-style-type: none;
 }
@@ -228,6 +232,7 @@ main > .main {
   grid-template-rows: auto;
   grid-gap: 88px;
   margin: 88px 0;
+	transition: all 0.5s ease-in-out;
 }
 
 .work-section > * + * {
@@ -370,11 +375,15 @@ button:hover {
 	top: 0;
 	width: 100vw;
 	height: 100vh !important;
-	background-color: black;
+	background-color: rgba(193, 199, 208, 0.6);
+	backdrop-filter: blur(5px);
 	margin-top: 0;
 	margin-bottom: 0;
 	z-index: 1000;
-	overflow: hidden!important;
+}
+
+.work-section__box.active > .work-section__card {
+	display: none;
 }
 
 .pop-up--container {
@@ -383,6 +392,7 @@ button:hover {
 	background-color: #fff;
 	border-radius: 16px;
 	margin: 20px auto;
+	
 }
 
 .pop-up--container.active{
@@ -435,7 +445,7 @@ button:hover {
 }
 
 .options > .buttons-action > button {
-	padding: 14px 14px;
+	padding: 8px 14px;
 	width: 45%;
 	border: none;
 	
@@ -596,6 +606,31 @@ textarea {
     max-width: 600px;
     margin: 0 auto;
   }
+
+	.pop-up--container {
+		max-width: 580px;
+	}
+
+	.pop-up--container > .mobile {
+		display: none;
+	}
+
+	.pop-up--container > .desktop {
+		display: block;
+	}
+
+	.pop-up--container > .desktop > img {
+		width: 600px;
+	}
+
+	.pop-up__header > .project-name {
+		font-size: 40px;
+		line-height: 52px;
+	}
+
+	.pop-up__footer  > .options{
+		width: 50%;
+	}
 
   .work-section__box > .work-section__card {
     flex-direction: row;
