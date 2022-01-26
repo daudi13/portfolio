@@ -416,6 +416,10 @@ button:hover {
 	color: #172b4d;
 }
 
+	.pop-up--container > .range > .desktop {
+		display: none;
+	}
+
 .range {
 	display: flex;
 	align-items: center;
@@ -445,11 +449,18 @@ button:hover {
 	text-align: center;
 }
 
+.buttons-action > * + * {
+	margin-left: 10px;
+}
+
 .options > .buttons-action > button {
 	padding: 8px 14px;
 	width: 45%;
 	border: none;
-	
+}
+
+.buttons-action > button > img {
+	margin-left: 10px;
 }
 
 /* ---about section---- */
@@ -620,6 +631,14 @@ textarea {
 		display: block;
 	}
 
+	.pop-up--container > .range > .mobile {
+		display: none;
+	}
+
+	.pop-up--container > .range > .desktop {
+		display: block;
+	}
+
 	.pop-up--container > .desktop > img {
 		width: 600px;
 	}
@@ -638,7 +657,7 @@ textarea {
   }
 
 	.pop-up--container.active {
-		margin-bottom: 300px;
+		margin-bottom: 30px;
 	}
 
   .work-section__card > .work-section__card--img {
@@ -913,13 +932,19 @@ textarea {
     max-width: 1000px;
   }
 
+	.pop-up--container > .range > p {
+		font-size: 15px;
+	}
+
   .pop-up--container > .desktop > img {
-    width: 1000px;
+    width: 1108px;
+		height: 580px;
   }
 
   .pop-up__footer {
     display: flex;
-      }
+		margin-top: 59px;
+  }
 
   .pop-up__footer > .desc {
     width: 60%;
