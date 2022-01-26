@@ -244,6 +244,10 @@ main > .main {
   align-items: center;
 }
 
+.work-section__card.active {
+	display: none;
+}
+
 .work-section__card > .desktop {
   display: none;
 }
@@ -356,6 +360,85 @@ button:hover {
 
 .work-section__card--info > .btn {
   margin-top: 20px;
+}
+
+/* ----pop-up---- */
+
+.work-section__box.active {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh !important;
+	background-color: black;
+	margin-top: 0;
+	margin-bottom: 0;
+	z-index: 1000;
+	overflow: hidden!important;
+}
+
+.pop-up--container {
+	display: none;
+	padding: 16px 16px 28px 16px;
+	background-color: #fff;
+	border-radius: 16px;
+	margin: 20px auto;
+}
+
+.pop-up--container.active{
+	display: block;
+}
+
+.pop-up__header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pop-up__header > .project-name{
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+	color: #172b4d;
+}
+
+.range {
+	display: flex;
+	align-items: center;
+}
+
+.desktop {
+	display: none;
+}
+
+.pop-up__footer {
+	margin-top: 12px;
+}
+
+.pop-up__footer > .desc {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.options > .tech {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.options > .buttons-action {
+	text-align: center;
+}
+
+.options > .buttons-action > button {
+	padding: 14px 14px;
+	width: 45%;
+	border: none;
+	
 }
 
 /* ---about section---- */
@@ -518,6 +601,10 @@ textarea {
     flex-direction: row;
   }
 
+	.pop-up--container.active {
+		margin-bottom: 300px;
+	}
+
   .work-section__card > .work-section__card--img {
     flex: 1;
     text-align: center;
@@ -653,6 +740,10 @@ textarea {
     margin: 0 auto;
     align-items: stretch;
   }
+
+	.work-section__card.active {
+	display: none !important;
+}
 
   .work-section__card > .mobile {
     display: none;
