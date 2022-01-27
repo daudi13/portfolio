@@ -32,6 +32,7 @@ const modals = [{
 	name: 'Tonic',
 	desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
 	imageOneMobile: './images/SnapshootPortfolio.png',
+	order: 'order--one',
 	imageOneDesktop: './images/Card-images/SnapshootPortfolioDesktop1.png',
 	skillSet: updateSkills('html', 'css', 'javaScript'),
 	jobProfile: createProfile('CANOPY', 'Back End Dev' , 2018),
@@ -41,6 +42,7 @@ const modals = [{
 	name: 'Tonic',
 	desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and ",
 	imageOneMobile: '/images/SnapshootPortfolio(1).png',
+	order: 'order--two',
 	imageOneDesktop: './images/Card-images/SnapshootPortfolioDesktop2.png',
 	skillSet: updateSkills('html', 'css', 'javaScript'),
 	jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
@@ -50,6 +52,7 @@ const modals = [{
 	name: 'Tonic',
 	desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
 	imageOneMobile: './images/SnapshootPortfolio(2).png',
+	order: 'order--one',
 	imageOneDesktop: './images/Card-images/SnapshootPortfolioDesktop3.png',
 	skillSet: updateSkills('html', 'css', 'javaScript'),
 	jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
@@ -59,6 +62,7 @@ const modals = [{
 	name: 'Multi-post Stories',
 	desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
 	imageOneMobile: './images/SnapshootPortfolio(3).png',
+	order: 'order--two',
 	imageOneDesktop: './images/Card-images/SnapshootPortfolioDesktop4.png',
 	skillSet: updateSkills('html', 'css', 'javaScript'),
 	jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
@@ -70,7 +74,7 @@ function createCards(projects) {
 			const htmlTemp = `
 			<div class="work-section__card">
 				<div class="work-section__card--img mobile"><img src="${project.imageOneMobile}" alt="card snap"></div>
-				<div class="work-section__card--img desktop"><img src="${project.imageOneDesktop}" alt="card snap"></div>
+				<div class="work-section__card--img desktop ${project.order}"><img src="${project.imageOneDesktop}" alt="card snap"></div>
 				<div class="work-section__card--info">
 					<h3 class="project-name">${project.name}</h3>
 					<div class="range">${project.jobProfile}

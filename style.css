@@ -620,6 +620,7 @@ textarea {
 
   .pop-up--container {
     max-width: 580px;
+		margin: 0 auto;
   }
 
   .pop-up--container > .mobile {
@@ -929,6 +930,7 @@ textarea {
 
   .pop-up--container {
     max-width: 1000px;
+		margin: 0 auto;
   }
 
   .pop-up--container > .range > p {
