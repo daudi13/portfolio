@@ -11,3 +11,4 @@ menuLinks.forEach((link) => link.addEventListener('click', () => {
   mobileMenu.classList.remove('active');
   btn.classList.remove('active');
 }));
+
