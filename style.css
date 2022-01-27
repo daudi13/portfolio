@@ -364,11 +364,11 @@ button:hover {
 /* ----pop-up---- */
 
 .modals {
-	display: none;
+  display: none;
 }
 
 .modals.active {
-	display: block;
+  display: block;
   position: fixed;
   left: 0;
   top: 0;
@@ -403,7 +403,7 @@ button:hover {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-	position: relative;
+  position: relative;
 }
 
 .pop-up__header > .project-name {
@@ -439,7 +439,7 @@ button:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-.options > .tech{
+.options > .tech {
   display: flex !important;
   margin-bottom: 25px;
 }
@@ -620,7 +620,7 @@ textarea {
 
   .pop-up--container {
     max-width: 580px;
-		margin: 0 auto;
+    margin: 0 auto;
   }
 
   .pop-up--container > .mobile {
@@ -930,7 +930,7 @@ textarea {
 
   .pop-up--container {
     max-width: 1000px;
-		margin: 0 auto;
+    margin: 0 auto;
   }
 
   .pop-up--container > .range > p {
