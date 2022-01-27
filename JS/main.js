@@ -12,3 +12,15 @@ menuLinks.forEach((link) => link.addEventListener('click', () => {
   btn.classList.remove('active');
 }));
 
+const userEmail = document.getElementById('email');
+const dialog = document.querySelector('.callAction');
+const contactForm = document.querySelector('form');
+
+contactForm.addEventListener('submit', (e) => {
+	const emailInput = userEmail.value;
+
+	if (/[A-Z]/.test(emailInput)) {
+		dialog.innerHTML = `*Please ensure your email address is in lowercase letters`;
+		e.preventDefault();
+	}
+});
