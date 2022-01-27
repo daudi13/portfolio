@@ -243,9 +243,9 @@ main > .main {
   align-items: center;
 }
 
-.work-section__card.active {
+/* .work-section__card.active {
   display: none;
-}
+} */
 
 .work-section__card > .desktop {
   display: none;
@@ -363,7 +363,12 @@ button:hover {
 
 /* ----pop-up---- */
 
-.work-section__box.active {
+.modals {
+	display: none;
+}
+
+.modals.active {
+	display: block;
   position: fixed;
   left: 0;
   top: 0;
@@ -377,7 +382,7 @@ button:hover {
   overflow: auto;
 }
 
-.work-section__box.active > .work-section__card {
+.modals.active.active > .work-section__card {
   display: none;
 }
 
@@ -386,7 +391,7 @@ button:hover {
   padding: 16px 16px 28px 16px;
   background-color: #fff;
   border-radius: 16px;
-  margin: 20px auto;
+  margin: 20px 26px;
 }
 
 .pop-up--container.active {
@@ -398,6 +403,7 @@ button:hover {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+	position: relative;
 }
 
 .pop-up__header > .project-name {
@@ -433,8 +439,8 @@ button:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-.options > .tech {
-  display: flex;
+.options > .tech{
+  display: flex !important;
   margin-bottom: 25px;
 }
 

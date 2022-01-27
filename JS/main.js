@@ -1,6 +1,7 @@
 const mobileMenu = document.querySelector('.mobile-menu');
 const menuLinks = document.querySelectorAll('.nav-mobile');
 const btn = document.querySelector('.header__menu-btn');
+const x = document.querySelector('.tobo');
 
 btn.addEventListener('click', () => {
   mobileMenu.classList.toggle('active');
