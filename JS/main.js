@@ -16,7 +16,7 @@ menuLinks.forEach((link) => link.addEventListener('click', () => {
 
 // email validation
 
-const userEmail = document.getElementById('email');
+const userEmail = document.getElementById('userEmail');
 const dialog = document.querySelector('.callAction');
 const form = document.querySelector('form');
 
