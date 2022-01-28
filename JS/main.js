@@ -17,10 +17,10 @@ const dialog = document.querySelector('.callAction');
 const contactForm = document.querySelector('form');
 
 contactForm.addEventListener('submit', (e) => {
-	const emailInput = userEmail.value;
+  const emailInput = userEmail.value;
 
-	if (/[A-Z]/.test(emailInput)) {
-		dialog.innerHTML = `*Please ensure your email address is in lowercase letters`;
-		e.preventDefault();
-	}
+  if (/[A-Z]/.test(emailInput)) {
+    dialog.innerHTML = '*Please ensure your email address is in lowercase';
+    e.preventDefault();
+  }
 });

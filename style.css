@@ -955,3 +955,11 @@ textarea {
     width: 40%;
   }
 }
+
+.callAction {
+	color: red;
+	font-size: 17px;
+	font-weight: 500px;
+	margin: 0.3rem auto;
+	transition: all 0.3s ease ;
+}
