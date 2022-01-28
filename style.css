@@ -403,7 +403,7 @@ button:hover {
 }
 
 .pop-up__header > .close-btn {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .pop-up__header > .project-name {
@@ -957,9 +957,9 @@ textarea {
 }
 
 .callAction {
-	color: red;
-	font-size: 17px;
-	font-weight: 500px;
-	margin: 0.3rem auto;
-	transition: all 0.3s ease ;
+  color: red;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0.3rem auto;
+  transition: all 0.3s ease;
 }
