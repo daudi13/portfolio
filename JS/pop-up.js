@@ -1,3 +1,5 @@
+// pop-up modal cards
+
 const containerBox = document.querySelector('.work-section__box');
 const boxModal = document.querySelector('.modals');
 const popUpName = document.querySelector('.project-name');

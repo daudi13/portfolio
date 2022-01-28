@@ -1,3 +1,5 @@
+// slider menu
+
 const mobileMenu = document.querySelector('.mobile-menu');
 const menuLinks = document.querySelectorAll('.nav-mobile');
 const btn = document.querySelector('.header__menu-btn');
@@ -11,6 +13,8 @@ menuLinks.forEach((link) => link.addEventListener('click', () => {
   mobileMenu.classList.remove('active');
   btn.classList.remove('active');
 }));
+
+// email validation
 
 const userEmail = document.getElementById('email');
 const dialog = document.querySelector('.callAction');
