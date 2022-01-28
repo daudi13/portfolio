@@ -1,3 +1,5 @@
+// pop-up modal cards
+
 const containerBox = document.querySelector('.work-section__box');
 const boxModal = document.querySelector('.modals');
 const popUpName = document.querySelector('.project-name');
@@ -34,7 +36,7 @@ const modals = [{
 },
 {
   modalId: 'con-2',
-  name: 'Tonic',
+  name: 'Multi-Post Stories',
   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and ",
   imageOneMobile: '/images/SnapshootPortfolio(1).png',
   order: 'order--two',
@@ -44,7 +46,7 @@ const modals = [{
 },
 {
   modalId: 'con-3',
-  name: 'Tonic',
+  name: 'Facebook 360',
   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
   imageOneMobile: './images/SnapshootPortfolio(2).png',
   order: 'order--one',
@@ -54,7 +56,7 @@ const modals = [{
 },
 {
   modalId: 'con-4',
-  name: 'Multi-post Stories',
+  name: 'Uber Navigation',
   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
   imageOneMobile: './images/SnapshootPortfolio(3).png',
   order: 'order--two',

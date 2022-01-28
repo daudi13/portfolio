@@ -243,10 +243,6 @@ main > .main {
   align-items: center;
 }
 
-/* .work-section__card.active {
-  display: none;
-} */
-
 .work-section__card > .desktop {
   display: none;
 }
@@ -404,6 +400,10 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   position: relative;
+}
+
+.pop-up__header > .close-btn {
+  cursor: pointer;
 }
 
 .pop-up__header > .project-name {
@@ -620,7 +620,7 @@ textarea {
 
   .pop-up--container {
     max-width: 580px;
-    margin: 0 auto;
+    margin: 30px auto;
   }
 
   .pop-up--container > .mobile {
@@ -930,7 +930,7 @@ textarea {
 
   .pop-up--container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto;
   }
 
   .pop-up--container > .range > p {
@@ -954,4 +954,12 @@ textarea {
   .pop-up__footer > .options {
     width: 40%;
   }
+}
+
+.callAction {
+  color: red;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0.3rem auto;
+  transition: all 0.3s ease;
 }
